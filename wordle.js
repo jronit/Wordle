@@ -40,6 +40,7 @@ window.onload = function() {
 }
 
 function initialize() {
+ 
 
     //Create the game board
     for(let r = 0; r <height; r++) {
@@ -54,6 +55,8 @@ function initialize() {
 
         }
     }
+
+   
 
     //Listen for key press
     document.addEventListener("keyup", (e) => {
@@ -144,6 +147,7 @@ function update() {
             var numGuesses = row + 1;
 
             if (row == 0) {
+               
                 document.getElementById("gameover").innerText = "🔥🔥🎉 You solved it in " + numGuesses + " guess 🎉🔥🔥";
             }
             else {
