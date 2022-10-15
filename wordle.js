@@ -31,7 +31,6 @@ guessList = guessList.concat(wordList);
 
 
 
-
 var word = wordList[Math.floor(Math.random() * wordList.length)].toUpperCase();
 console.log(word);
 
